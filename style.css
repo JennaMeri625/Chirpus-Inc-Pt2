@@ -100,7 +100,7 @@ a:link, a:visited, a:hover, a:active {
 
 @media only screen and (min-width:768px) {
     
-    /*code for header
+    /*code for header*/
     
     header {
         display: flex;
@@ -130,4 +130,4 @@ a:link, a:visited, a:hover, a:active {
     h2 {
         width: 50%;
     }
-}*/
+}
