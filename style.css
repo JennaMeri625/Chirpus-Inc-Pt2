@@ -11,13 +11,15 @@ body {
 /*Code for header*/
 
 header {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: left;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 20px;*/
+    display: flex;
+    flex-direction: column;
 }
 #chirpus-inc {
     margin-left: 0;
