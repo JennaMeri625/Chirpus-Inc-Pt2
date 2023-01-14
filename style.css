@@ -7,6 +7,9 @@ body {
     background-color: #f9fafc;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*Code for header*/
+
 header {
     display: flex;
     flex-direction: column;
@@ -25,12 +28,19 @@ ul {
     list-style: none;
     padding: 0;
     color: #69696a;
+    display: block;
+}
+#nav {
+    
 }
 #nav li {
     margin-top: 10px;
 
 }
-p {
+
+/*Code for content*/
+
+#p1, #p2 {
     color: #fff;
     background-color: #000;
     text-align: center;
@@ -55,6 +65,9 @@ h2 {
     font-size: 12pt;
     font-weight: normal;
 }
+
+/*Code for Footer*/
+
 footer {
     background-color: rgba(247, 193, 162, 0.7);
     display: flex;
@@ -71,14 +84,50 @@ span {
     margin-left: 20px;
     font-weight: normal;
 }
-div li{
+#links li{
     text-decoration: none;
     display: inline;
     margin-right: 20px;
 }
+
+/*Code for changing Link colors*/
+
 a:link, a:visited, a:hover, a:active {
     color: #69696a;
 }
-@media only screen and (min-width:769px) {
+
+/*Code for >768px)*/
+
+@media only screen and (min-width:768px) {
     
-}
+    /*code for header
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        margin:0;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: nowrap;
+    }
+    #nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: fit-content;
+        display: inline;
+        margin-right: 0;
+    }
+    #nav li {
+        margin-right: 10px;
+    }
+    #p1 {
+
+    }
+    #p2 {
+        width: 50%
+    }
+    h2 {
+        width: 50%;
+    }
+}*/
