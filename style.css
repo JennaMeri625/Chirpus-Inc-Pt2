@@ -30,9 +30,6 @@ ul {
     color: #69696a;
     display: block;
 }
-#nav {
-    
-}
 #nav li {
     margin-top: 10px;
 
@@ -121,9 +118,6 @@ a:link, a:visited, a:hover, a:active {
     }
     #nav li {
         margin-right: 10px;
-    }
-    #p1 {
-
     }
     #p2 {
         width: 50%
