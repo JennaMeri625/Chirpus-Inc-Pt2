@@ -11,10 +11,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: nowrap;
-    align-items: left;
-    box-sizing: border-box;
     padding: 20px;
+}
+nav p {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
 }
 #chirpus-inc {
     margin-left: 0;
@@ -81,4 +83,23 @@ a:link, a:visited, a:hover, a:active {
 }
 
 @media only screen and (min-width:768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #nav {
+        display: flex;
+        flex-direction: row;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+    nav p {
+        margin-top: 0;
+    }
+    nav li {
+        margin-right: 10px;
+    }
 }
