@@ -114,6 +114,9 @@ a:link, a:visited, a:hover, a:active {
         height: 250px;
         background-color: rgba(247, 136, 167, 0.6);
         border: rgba(247, 136, 167, 0.6);
+        position: absolute;
+        left: 400px;
+        bottom: 920px;
     }
     .circle-medium {
         display: flex;
@@ -121,12 +124,18 @@ a:link, a:visited, a:hover, a:active {
         height: 200px;
         background-color: rgba(247, 193, 162, 0.7);
         border: rgba(247, 193, 162, 0.7);
+        position: absolute;
+        left: 525px;
+        bottom: 850px;
     }
     .circle-small {
         display: flex;
+        position: absolute;
         width: 150px;
         height: 150px;
         background-color: rgba(207, 130, 213, 0.6);
-        border:rgba(207, 130, 213, 0.6)
+        border:rgba(207, 130, 213, 0.6);
+        left: 600px;
+        bottom: 1000px;
     }
 }
