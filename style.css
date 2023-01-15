@@ -102,4 +102,31 @@ a:link, a:visited, a:hover, a:active {
     nav li {
         margin-right: 10px;
     }
+    section {
+        width: 50%;
+    }
+    .circleBase {
+        border-radius: 50%;
+    }
+    .circle-large {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border: rgba(247, 136, 167, 0.6);
+    }
+    .circle-medium {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        background-color: rgba(247, 193, 162, 0.7);
+        border: rgba(247, 193, 162, 0.7);
+    }
+    .circle-small {
+        display: flex;
+        width: 150px;
+        height: 150px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border:rgba(207, 130, 213, 0.6)
+    }
 }
