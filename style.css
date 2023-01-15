@@ -103,7 +103,15 @@ a:link, a:visited, a:hover, a:active {
         margin-right: 10px;
     }
     section {
+        display: flex;
+        flex-direction: row;
+    }
+    .content, .circles {
         width: 50%;
+    }
+    .circles {
+        margin-left: 20px;
+        right: 0;
     }
     .circleBase {
         border-radius: 50%;
@@ -115,8 +123,7 @@ a:link, a:visited, a:hover, a:active {
         background-color: rgba(247, 136, 167, 0.6);
         border: rgba(247, 136, 167, 0.6);
         position: absolute;
-        left: 400px;
-        bottom: 920px;
+        transform: translate(10%, 5%);
     }
     .circle-medium {
         display: flex;
@@ -125,8 +132,7 @@ a:link, a:visited, a:hover, a:active {
         background-color: rgba(247, 193, 162, 0.7);
         border: rgba(247, 193, 162, 0.7);
         position: absolute;
-        left: 525px;
-        bottom: 850px;
+        transform: translate(75%, 75%);
     }
     .circle-small {
         display: flex;
@@ -135,7 +141,6 @@ a:link, a:visited, a:hover, a:active {
         height: 150px;
         background-color: rgba(207, 130, 213, 0.6);
         border:rgba(207, 130, 213, 0.6);
-        left: 600px;
-        bottom: 1000px;
+        transform: translate(145%, 40%);
     }
 }
